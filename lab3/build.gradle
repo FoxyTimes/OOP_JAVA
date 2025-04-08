@@ -1,0 +1,41 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.1.2' // Для создания "fat-jar"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+    implementation("com.google.code.gson:gson:2.8.9")
+}
+
+application {
+    mainClass.set('Main') // Указываем главный класс
+}
+
+// Конфигурация shadowJar вместо кастомного fatJar
+shadowJar {
+    archiveBaseName.set('MineSweeper')
+    archiveVersion.set('1.0.0')
+    archiveClassifier.set('') // Убираем классификатор (по умолчанию 'all')
+    manifest {
+        attributes 'Main-Class': 'Main' // Явно указываем главный класс в манифесте
+    }
+}
+
+// Отключаем обычный jar, так как используем shadowJar
+jar {
+    enabled = false
+}
+
+test {
+    useJUnitPlatform()
+}
+
+// Упрощаем зависимости между задачами
+assemble.dependsOn shadowJar
