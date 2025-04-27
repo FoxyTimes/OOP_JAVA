@@ -2,7 +2,7 @@ package ru.minesweeper.observer;
 
 public enum Notifications {
     GAME_STARTED,
-    GAME_EXECUTED,
+    HOST_STARTED,
     GAME_CHANGED,
     GAME_RUINED,
     GAME_WINED,
@@ -13,4 +13,13 @@ public enum Notifications {
 
     SWAP_STARTED,
     SWAP_SUCCESS,
+
+    LOBBY_NICKNAMES_UPDATED,
+    HOST_DISCONNECTED,
+    GAME_CHANGED_I_HOST,
+    GAME_CHANGED_I_CLIENT,
+    GAME_WINED_I_CLIENT,
+    GAME_WINED_I_HOST,
+    GAME_RUINED_I_CLIENT,
+    GAME_RUINED_I_HOST,
 }

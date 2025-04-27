@@ -1,6 +1,6 @@
 package ru.minesweeper.observer;
 
-import ru.minesweeper.model.entities.datatransfer.DataTransferObject;
+import ru.minesweeper.server.model.entities.datatransfer.DataTransferObject;
 
 
 public interface Observer {

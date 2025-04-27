@@ -1,17 +1,10 @@
-import ru.minesweeper.Difficulties;
-import ru.minesweeper.controller.GameController;
-import ru.minesweeper.model.GameModel;
-import ru.minesweeper.view.gui.GameView;
+import ru.minesweeper.server.GameServer;
+import ru.minesweeper.client.view.gui.GameView;
+
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
-        GameModel gameCore = new GameModel();
-        GameController controller = new GameController(gameCore);
-        GameView window = new GameView(controller);
-
-        gameCore.addObserver(window);
-
-        controller.createEmptyField(Difficulties.NONE);
-
+    public static void main(String[] args) throws IOException {
+        GameView gameView = new GameView();
     }
 }
