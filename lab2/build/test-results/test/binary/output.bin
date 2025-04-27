@@ -1,0 +1,11 @@
+(File not found, turn to console input:
+10.0
+22.0
+11.0
+110.0
+55.0
+7.416198487095663
+^2025-03-28 10:10:59 ERROR: ru.calc.errors.ArgumentsException: InstPush requires one argument
+_2025-03-28 10:10:59 ERROR: ru.calc.errors.NoSuchInstructionException: Undefiended instruction
+H2025-03-28 10:10:59 ERROR: error while reading the file: Stream closed
+H2025-03-28 10:10:59 ERROR: error while reading the file: Stream closed

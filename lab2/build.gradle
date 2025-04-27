@@ -1,0 +1,56 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.logging.log4j:log4j-api:2.20.0'
+    implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+}
+
+application {
+    mainClass.set('Main')
+}
+
+shadowJar {
+    archiveBaseName.set("calc")
+    archiveVersion.set("1.0.0")
+}
+
+jar {
+    enabled = false
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task fatJar(type: com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar) {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+    from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+tasks.named('distZip') {
+    dependsOn fatJar
+}
+
+tasks.named('distTar') {
+    dependsOn fatJar
+}
+
+tasks.named('startScripts') {
+    dependsOn fatJar
+}
+
+build.dependsOn fatJar
