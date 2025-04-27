@@ -1,0 +1,8 @@
+2025-03-28 02:12:46 ERROR: ru.calc.errors.EmptyStackContextException: Empty stack in: ru.calc.instructions.InstPrint
+2025-03-28 02:12:56 ERROR: ru.calc.errors.EmptyStackContextException: Empty stack in: ru.calc.instructions.InstPrint
+2025-03-28 02:12:59 ERROR: ru.calc.errors.NoSuchInstructionException: Undefiended instruction
+2025-03-28 02:13:00 ERROR: ru.calc.errors.ArgumentsException: InstPush requires one argument
+2025-03-28 02:13:03 ERROR: ru.calc.errors.StackPopException: too low stack in: ru.calc.instructions.InstMin
+2025-03-28 02:13:27 ERROR: ru.calc.errors.NoSuchInstructionException: Undefiended instruction
+2025-03-28 02:13:29 ERROR: ru.calc.errors.NoSuchInstructionException: Undefiended instruction
+2025-03-28 02:13:43 ERROR: ru.calc.errors.DivisionByZeroException: Division by zero in: ru.calc.instructions.InstDel

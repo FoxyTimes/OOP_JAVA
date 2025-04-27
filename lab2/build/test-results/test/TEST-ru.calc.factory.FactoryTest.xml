@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.calc.factory.FactoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-28T03:10:59" hostname="DESKTOP-4UEIC10" time="0.003">
+  <properties/>
+  <testcase name="testFactory()" classname="ru.calc.factory.FactoryTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

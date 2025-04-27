@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="InstsTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2025-03-28T03:10:59" hostname="DESKTOP-4UEIC10" time="0.142">
+  <properties/>
+  <testcase name="testPopInstRight()" classname="InstsTest" time="0.005"/>
+  <testcase name="testMulInstWithErrors()" classname="InstsTest" time="0.004"/>
+  <testcase name="testDelInstRight()" classname="InstsTest" time="0.03"/>
+  <testcase name="testPrintInstWithErrors()" classname="InstsTest" time="0.004"/>
+  <testcase name="testPopInstWithErrors()" classname="InstsTest" time="0.003"/>
+  <testcase name="testDelInstWithErrors()" classname="InstsTest" time="0.006"/>
+  <testcase name="testMinInstWithErrors()" classname="InstsTest" time="0.004"/>
+  <testcase name="testPlusInstWithErrors()" classname="InstsTest" time="0.004"/>
+  <testcase name="testDefInstRight()" classname="InstsTest" time="0.005"/>
+  <testcase name="testPushInstRight()" classname="InstsTest" time="0.003"/>
+  <testcase name="testPushInstWithErrors()" classname="InstsTest" time="0.005"/>
+  <testcase name="testMinInstRight()" classname="InstsTest" time="0.002"/>
+  <testcase name="testPrintInstRight()" classname="InstsTest" time="0.005"/>
+  <testcase name="testMulInstRight()" classname="InstsTest" time="0.004"/>
+  <testcase name="testPlusInstRight()" classname="InstsTest" time="0.003"/>
+  <testcase name="testSqrtInstWithErrors()" classname="InstsTest" time="0.003"/>
+  <testcase name="testSqrtInstRight()" classname="InstsTest" time="0.002"/>
+  <testcase name="testDefInstWithErrors()" classname="InstsTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

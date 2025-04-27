@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalcTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-28T03:10:58" hostname="DESKTOP-4UEIC10" time="1.415">
+  <properties/>
+  <testcase name="testCalc()" classname="CalcTest" time="1.415"/>
+  <system-out><![CDATA[File not found, turn to console input:
+10.0
+22.0
+11.0
+110.0
+55.0
+7.416198487095663
+2025-03-28 10:10:59 ERROR: ru.calc.errors.ArgumentsException: InstPush requires one argument
+2025-03-28 10:10:59 ERROR: ru.calc.errors.NoSuchInstructionException: Undefiended instruction
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

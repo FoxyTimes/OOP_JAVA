@@ -1,0 +1,88 @@
+2025-03-20 17:22:03 [main] ERROR: java.io.FileNotFoundException: 
+2025-03-20 17:22:28 [main] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-20 17:22:48 [main] ERROR: errors.StackPopException: too low stack in: instructions.InstMin
+2025-03-20 17:23:00 [main] ERROR: java.io.FileNotFoundException: 
+2025-03-20 17:24:28 [main] ERROR: java.io.FileNotFoundException: 
+2025-03-20 17:28:12 [main] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-20 19:59:31 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:01:07 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:01:18 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:01:59 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:02:07 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:02:28 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:02:46 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:03:12 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-20 23:03:12 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-20 23:03:47 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-20 23:03:47 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-20 23:08:32 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-20 23:08:32 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-20 23:08:32 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:11:12 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-20 23:11:15 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-20 23:11:27 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-20 23:11:27 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-20 23:11:27 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:11:27 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:11:35 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-20 23:11:35 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-20 23:11:35 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:11:35 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:12:02 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-20 23:12:02 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-20 23:12:02 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:12:36 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:12:36 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-20 23:12:36 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-20 23:13:37 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-20 23:13:37 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-20 23:13:37 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:13:37 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:13:42 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-20 23:13:48 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-20 23:13:48 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-20 23:13:48 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:13:48 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:13:55 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-20 23:13:55 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-20 23:13:55 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-20 23:13:55 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-21 09:21:03 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-21 09:21:03 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-21 09:21:03 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-21 09:21:03 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-21 09:21:10 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-21 09:21:10 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-21 09:21:10 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-21 09:21:10 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-21 09:21:21 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-21 09:21:21 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-21 09:21:21 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-21 09:21:21 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-21 09:22:01 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-21 09:22:01 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-21 09:22:01 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-21 09:22:01 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-21 09:33:50 [Test worker] ERROR: errors.ArgumentsException: InstPush requires one argument
+2025-03-21 09:33:50 [Test worker] ERROR: errors.NoSuchInstructionException: Undefiended instruction
+2025-03-21 09:33:50 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-21 09:33:50 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-28 02:09:21 [Test worker] ERROR: ru.calc.errors.ArgumentsException: InstPush requires one argument
+2025-03-28 02:09:21 [Test worker] ERROR: ru.calc.errors.NoSuchInstructionException: Undefiended instruction
+2025-03-28 02:09:21 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-28 02:09:21 [Test worker] ERROR: error while reading the file: Stream closed
+2025-03-28 02:12:24 ERROR: ru.calc.errors.ArgumentsException: InstPush requires one argument
+2025-03-28 02:12:24 ERROR: ru.calc.errors.NoSuchInstructionException: Undefiended instruction
+2025-03-28 02:12:24 ERROR: error while reading the file: Stream closed
+2025-03-28 02:12:24 ERROR: error while reading the file: Stream closed
+2025-03-28 09:55:58 ERROR: ru.calc.errors.StackPopException: too low stack in: ru.calc.instructions.InstMin
+2025-03-28 09:56:07 ERROR: ru.calc.errors.DivisionByZeroException: Division by zero in: ru.calc.instructions.InstDel
+2025-03-28 09:59:52 ERROR: ru.calc.errors.NoSuchInstructionException: Undefiended instruction
+2025-03-28 10:00:00 ERROR: ru.calc.errors.NoSuchInstructionException: Undefiended instruction
+2025-03-28 10:00:56 ERROR: ru.calc.errors.NoSuchInstructionException: Undefiended instruction
+2025-03-28 10:01:05 ERROR: ru.calc.errors.NoSuchInstructionException: Undefiended instruction
+2025-03-28 10:03:12 ERROR: ru.calc.errors.NoSuchInstructionException: Undefiended instruction
+2025-03-28 10:10:59 ERROR: ru.calc.errors.ArgumentsException: InstPush requires one argument
+2025-03-28 10:10:59 ERROR: ru.calc.errors.NoSuchInstructionException: Undefiended instruction
+2025-03-28 10:10:59 ERROR: error while reading the file: Stream closed
+2025-03-28 10:10:59 ERROR: error while reading the file: Stream closed
