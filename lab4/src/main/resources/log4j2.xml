@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Вывод в stderr для WARN и ERROR -->
+        <Console name="ConsoleErr" target="SYSTEM_ERR">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss}  %msg%n%throwable"/>
+        </Console>
+
+        <!-- Вывод в stdout для INFO и DEBUG -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss}  %msg%n"/>
+        </Console>
+
+        <!-- Файловый аппендер для INFO и выше -->
+        <File name="FileAppender" fileName="logs/factory.log" append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss}  %msg%n%throwable"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!-- Логгер для пакета org.apache -->
+        <Logger name="org.apache" level="warn" additivity="false">
+            <AppenderRef ref="ConsoleErr"/>
+        </Logger>
+
+        <!-- Основной логгер приложения -->
+        <Logger name="ru.factory" level="info" additivity="false">
+            <AppenderRef ref="Console" level="info"/>
+            <AppenderRef ref="FileAppender" level="info"/>
+        </Logger>
+
+        <!-- Корневой логгер -->
+        <Root level="info">
+            <AppenderRef ref="Console" level="info"/>
+            <AppenderRef ref="FileAppender" level="info"/>
+            <AppenderRef ref="ConsoleErr" level="warn"/>
+        </Root>
+    </Loggers>
+</Configuration>
